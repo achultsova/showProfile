@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500&family=IBM+Plex+Serif:wght@300;500&display=swap');
+
+.swiper-slide {
+    filter: grayscale(90%);
+}
+.swiper-slide-active {
+    filter: grayscale(0%);
+}
+
+.swiper-pagination {
+    grid-column: 1/4;
+    align-items: end;
+    padding-right: 16px;
+    cursor: pointer;
+    color: black; 
+}
+
+.swiper-pagination-bullet {
+	color: #bdbebe;
+	opacity: 1;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+	color: black;
+    background: #f7f8f8;
+    opacity: 1;
+}
